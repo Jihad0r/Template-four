@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fram.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar b-white">
+            <h1 class="p-bottom-20 relative">Elzero</h1>
+            <ul>
+                <li class="radius">
+                    <a href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="radius">
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li class="radius">
+                    <a href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li class="radius">
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+                <li class="radius">
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li class="radius">
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li class="radius">
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li class="radius">
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="con">
+            <header>
+                <div class="container p-10 between-flex b-white">
+                    <div class="search relative">
+                        <input class="radius relative" type="text" placeholder="Type Keyword">
+                    </div>
+                    <div class="imag between-flex">
+                        <div class="bell">
+                            <i class="fa-regular fa-bell fa-lg"></i>
+                        </div>
+                        <img class="avatar" src="imgs/avatar.png" alt="">
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <h3>Settings</h3>
+                <div class="settings grid">
+                    <div class="control b-white radius p-20">
+                        <h4>Site Control</h4>
+                        <p>Control The Website If There Is Maintenance</p>
+                        <div class="web between-flex">
+                            <div class="text">
+                                <span>Website Control</span>
+                                <p>Open/Close Website And Type The Reason</p>
+                            </div>
+                            <label class="Check">
+                                <input type="checkbox" checked>
+                                <div class="switch"></div>
+                            </label>
+                        </div>
+                        <textarea placeholder="Close Message Content"></textarea>
+                    </div>
+                    <div class="general b-white radius p-20">
+                        <h4>General Info</h4>
+                        <p>General Information About Your Account</p>
+                        <label>
+                            <p>First Name</p>
+                            <input type="text" placeholder="First Name">
+                        </label>
+                        <label>
+                            <p>Last Name</p>
+                            <input type="text" placeholder="Last Name">
+                        </label>
+                        <label>
+                            <p>Email</p>
+                            <input type="email" value="o@nn.sa" disabled>
+                            <span>Change</span>
+                        </label>
+                    </div>
+                    <div class="security b-white radius p-20">
+                        <h4>Security Info</h4>
+                        <p>Security Information About Your Account</p>
+                        <div class="info win between-flex b-bottom p-10-top-right-bottom">
+                            <div class="text">
+                                <span class="m-b">Password</span>
+                                <p class="m-none">Last Change On 25/10/2021</p>
+                            </div>
+                            <span class="radius c-white b-blue p-10">Change</span>
+                        </div>
+                        <div class="info between-flex b-bottom p-10-top-right-bottom">
+                            <div class="text">
+                                <span class="m-b">Two-Factor Authentication</span>
+                                <p class="m-none">Enable/Disable The Feature</p>
+                            </div>
+                            <label class="Check">
+                                <input type="checkbox" checked>
+                                <div class="switch"></div>
+                            </label>
+                        </div>
+                        <div class="info between-flex p-10-top-right-bottom">
+                            <div class="text">
+                                <span class="m-b">Devices</span>
+                                <p class="m-none">Check The Login Devices List</p>
+                            </div>
+                            <span class="radius c-black b-gray p-10">Devices</span>
+                        </div>
+                    </div>
+                    <div class="social b-white radius p-20">
+                        <h4>Social Info</h4>
+                        <p>Social Media Information</p>
+                        <div class="accont between-flex m-bottom b-gray">
+                            <i class="fa-brands fa-twitter "></i>
+                            <p>Twitter Username</p>
+                        </div>
+                        <div class="accont between-flex m-bottom b-gray">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <p>Facebook Username</p>
+                        </div>
+                        <div class="accont between-flex m-bottom b-gray">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <p>Linkedin Username</p>
+                        </div>
+                        <div class="accont between-flex b-gray">
+                            <i class="fa-brands fa-youtube "></i>
+                            <p>Youtube Username</p>
+                        </div>
+                    </div>
+                    <div class="widgets b-white radius p-20">
+                        <h4>Widgets Control</h4>
+                        <p>Show/Hide Widgets</p>
+                        <div class="options">
+                            <div>
+                                <input type="checkbox" id="one" checked>
+                                <label for="one">Quick Draft</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="two" checked>
+                                <label for="two">Yearly Targets</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="three" checked>
+                                <label for="three">Tickets Statistics</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="four" checked>
+                                <label for="four">Latest News</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="five" checked>
+                                <label for="five">Latest Tasks</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="six" checked>
+                                <label for="six">Top Search Items</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backup b-white radius p-20">
+                        <h4>Backup Manager</h4>
+                        <p>Control Backup Time And Location</p>
+                        <div>
+                            <input type="radio" name="duration" id="Daily">
+                            <label for="Daily">Daily</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="duration" id="Weekly">
+                            <label for="Weekly">Weekly</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="duration" id="Monthly">
+                            <label for="Monthly">Monthly</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="type" id="Megaman">
+                            <label for="Megaman">Megaman</label>
+                            <input type="radio" name="type" id="Zero">
+                            <label for="Zero">Zero</label>
+                            <input type="radio" name="type" id="Sigma">
+                            <label for="Sigma">Sigma</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
